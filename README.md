@@ -17,12 +17,17 @@ Four folders, one per class:
 | Folder             | What it contains                                                              | Approx. size |
 | ------------------ | ----------------------------------------------------------------------------- | ------------ |
 | `pipa/`            | My own Pipa playing — practice phrases, open strings, scales, short passages  | ~40 MB       |
-| `other_instrument/`| Recordings of other instruments — wind/brass, drum kit, electric & acoustic guitar, zhongruan, plus older clips like `Battle Hymn.mp3`, `Chinese mid-autumn festival (1).mp3`, `吉他01.m4a`. The drum / guitar / zhongruan clips were captured as video (MP4) and the audio track was extracted to `.m4a` for this dataset. | ~58 MB       |
+| `other_instrument/`| Recordings of other instruments — wind/brass, drum kit, electric & acoustic guitar, zhongruan, piano and voice, plus older clips like `Battle Hymn.mp3`, `Chinese mid-autumn festival (1).mp3`, `吉他01.m4a`. Ten of the clips (drum / guitar / zhongruan / voice+piano) were captured as video and kept as `.m4a` files that carry **both** an AAC audio track and a video track re-encoded to 640x480, so the performance stays visible as well as audible. | ~445 MB      |
 | `speech/`          | Spoken voice — my own speech and counting used as a contrast to Pipa timbre   | ~29 MB       |
 | `background/`      | Room ambience, silent gaps, and everyday environmental noise                  | ~4 MB        |
 
 All clips are either self-recorded by the author or cleared for public sharing
-by their respective recordists. Total: 32 clips (~131 MB), in `.m4a` / `.mp3`.
+by their respective recordists. Total: 34 clips (~520 MB), in `.m4a` / `.mp3`.
+
+The ten video-derived clips are stored with Git LFS. Their video tracks are
+downscaled to 640x480 to keep the repository manageable — they are kept for
+documentation (showing that the recordings really are performances on those
+instruments), while training consumes only the audio, downsampled to 16 kHz.
 
 ## How the model uses it
 
