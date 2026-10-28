@@ -17,12 +17,12 @@ Four folders, one per class:
 | Folder             | What it contains                                                              | Approx. size |
 | ------------------ | ----------------------------------------------------------------------------- | ------------ |
 | `pipa/`            | My own Pipa playing — practice phrases, open strings, scales, short passages  | ~40 MB       |
-| `other_instrument/`| Recordings of other instruments (e.g. `Battle Hymn.mp3`, `Chinese mid-autumn festival (1).mp3`, `Raindrops on my Window.mp3`, `吉他01.m4a`) | ~38 MB       |
+| `other_instrument/`| Recordings of other instruments — wind/brass, drum kit, electric & acoustic guitar, zhongruan, plus older clips like `Battle Hymn.mp3`, `Chinese mid-autumn festival (1).mp3`, `吉他01.m4a`. The drum / guitar / zhongruan clips were captured as video (MP4) and the audio track was extracted to `.m4a` for this dataset. | ~58 MB       |
 | `speech/`          | Spoken voice — my own speech and counting used as a contrast to Pipa timbre   | ~29 MB       |
 | `background/`      | Room ambience, silent gaps, and everyday environmental noise                  | ~4 MB        |
 
 All clips are either self-recorded by the author or cleared for public sharing
-by their respective recordists. Total: 24 clips (~111 MB), in `.m4a` / `.mp3`.
+by their respective recordists. Total: 32 clips (~131 MB), in `.m4a` / `.mp3`.
 
 ## How the model uses it
 
