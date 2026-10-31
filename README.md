@@ -10,6 +10,10 @@ This repository holds the **training audio** behind that model
 (`PipaSoundClassifier.mlmodel`). It is shared so the experiment is reproducible
 and the recording process is documented.
 
+## Embedded in PluckBuddy-Bilingual
+
+This dataset is bundled as a subfolder named `PipaSoundClassifierDataset/` inside the [PluckBuddy-Bilingual](https://github.com/ZehuiWU2009/PluckBuddy-Bilingual) app project. Because it was recorded and built exclusively for that app, the folder travels with the app's source tree. The real 627 MB of audio is kept in this standalone repository (tracked with Git LFS) so that the app repository itself stays lightweight; the app's README links back here.
+
 ## What is inside
 
 Four folders, one per class:
@@ -77,6 +81,10 @@ See `LICENSE`.
 
 这个仓库里放的就是那个模型（`PipaSoundClassifier.mlmodel`）背后的**训练音频**。
 把它公开，是为了让这个实验可以复现，也把录音的过程记录下来。
+
+## 内嵌于 PluckBuddy-Bilingual
+
+本数据集作为子文件夹 `PipaSoundClassifierDataset/` 随 [PluckBuddy-Bilingual](https://github.com/ZehuiWU2009/PluckBuddy-Bilingual) 应用工程一起发布。因为它专为这个 App 录制、目前只供这一个应用使用，所以跟着工程源码走。627 MB 真实音频仍留在这个独立仓库里（用 Git LFS 跟踪），这样应用仓库本身保持轻量；应用工程的 README 会反向链接到本仓库。
 
 ## 里面有什么
 
